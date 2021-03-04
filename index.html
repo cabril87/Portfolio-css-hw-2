@@ -6,68 +6,205 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="reset.css"> -->
-    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Carlos Abril Jr</h1>
-        <nav>
-            <a href="#About me">About me</a>
-            <a href="#Work">Work</a>
-            <a href="#Contact me">Contact me</a>
-            <a href="#">Resume</a>
-        </nav>
-    </header>
-    <section class="sub-heading">
-        <h2>NEVER REGRET ANYTHING THAT MADE YOU SMILE</h2>
-    </section>
-    <main>
-        <section class="container1">
+    <div class="wrapper">
+        <header role="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand">Carlos Abril</a>
 
-            <h3 id="About me">About me</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#info">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-            <div class="content">
-                <img src="Assets/me.jpeg" alt="Me">
-                <P>
-                    Hi everyone my name is Carlos Abril. I live in Fuquay-Varina, Nc and try to live everyday to my full potential. I am a retired U.S Marine and worked as a videographer for 3 years. I am passionate in creating things and always had a passion in creating websites and putting content out there for the world to see. 
-                </P>
+        </header>
+        <section id="home" class="sec-main">
+            <h1 class="main-heading">NEVER REGRET ANYTHING THAT MADE YOU SMILE</h1>
+        </section>
+
+        <section id="about" class="sec-about">
+            <div class="container p-4">
+                <h1 id="About">About me</h1>
+
+                <div class="row">
+                    <div class="col-sm-6 offset-md-3">
+                        <p>
+                            Hi everyone my name is Carlos Abril. I live in Fuquay-Varina, Nc and try to live everyday to
+                            my full
+                            potential. I am a retired U.S Marine and worked as a videographer for 3 years. I am
+                            passionate in
+                            creating things and always had a passion for creating websites and putting content out there
+                            for the
+                            world to see.
+                        </P>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="container2">
-            <h3 id="Work">Work</h3>
-            <div class="content">
-                <article class="skill hero">
-                    <h2>Motion Graphics</h2>
+        <hr />
+        <section id="work" class="sec-work">
+            <div class="container ">
+                <h1 id="Portfolio">Portfolio</h1>
+                <div class="row offset-md-0">
+                    <div class="col-sm-4 offset-md-1">
+                        <a href="https://smoyamendez.github.io/covid-correlation-console/"><img
+                                src="https://i.pinimg.com/originals/99/bc/bc/99bcbc6ff6b449762e409c421c30dd1b.gif"
+                                width="400" height="400" alt="covid"></a>
+                        <h2>Covid Correlation Console</h2>
 
-                </article>
-                <article class="skill website">
-                    <h2>Websites</h2>
-                </article>
-                <article class="skill film">
-                    <h2>Filmmaking</h2>
-                </article>
-                <article class="skill photo">
-                    <h2>Photography</h2>
-                </article>
-                <article class="skill sound">
-                    <h2>Sound</h2>
-                </article>
+                    </div>
+                    <div class="col-sm-4 offset-md-1">
+                        <a href="https://cabril87.github.io/WDS-TPAPI-HW-5/"><img
+                                src="https://media3.giphy.com/media/3oKGzpLBTPjUwPmJGw/source.gif" width="400"
+                                height="400" alt="scheduler"></a>
+                        <h2>Work Day Scheduler</h2>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <hr />
+        <section id="info" class="sec-info">
+            <div class="sec-contanier">
+                <h1>Info</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button>
+                            <a data-toggle="popover"
+                                href="https://drive.google.com/file/d/1UyOwt3lbH_OaslXe76A8fbK7qLcdhh7a/view?usp=sharing"><i
+                                    class="fa fa-user-circle big-icon"></i></a>
+
+                        </button>
+                        <h3>Avatar</h3>
+                        <p>Click the icon above to see my Avatar</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <button>
+
+                            <a href="https://my.indeed.com/p/carlosa-fs10kqu"><i class="fa fa-file big-icon"></i></a>
+                        </button>
+                        <h3>Resume</h3>
+                        <p>Click the icon above to see my Resume</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <button>
+                            <a data-toggle="popover" data-content="Email: Carlos.abril87@outlook.com">
+
+                                <i class="fa fa-info big-icon"></i>
+                            </a>
+                        </button>
+                        <h3>Contact Info</h3>
+                        <p>Click the icon above to see my Contact Info</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-            <h3 id="Contact me">Contact me</h3>
-            <footer>
-                <nav>
-                    <a href="#">3055466352</a>
-                    <a href="#">Carlos.abril87@outlook.com</a>
-                    <a href="#">Linkin</a>
-                    <a href="#">Github</a>
-                </nav>
-            </footer>
-        </section>
-    </main>
+        <Section id="Contact" class="sec-contact">
+            <div class="sec-contanier">
+                <div class="row offset-md-4">
+                    <div class="col-md-6 col-md-offset-3" id="form_container">
+                        <h2>Contact Me</h2>
+                        <p>
+                            Please send your message below. We will get back to you at the earliest!
+                        </p>
+                        <form role="form" method="post" id="reused_form">
+
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label for="message">
+                                        Message:</label>
+                                    <textarea class="form-control" type="textarea" name="message" id="message"
+                                        maxlength="6000" rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <label for="name">
+                                        Your Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <label for="email">
+                                        Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                    </div>
+
+        </Section>
+    </div>
+    <hr />
+    <footer>
+        <!-- Grid container -->
+        <div class="container"></div>
+        <ul class="soc-media-ul">
+
+            <!-- Google -->
+            <li>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button">
+                    <i class="fa fa-envelope-square fa-code"></i>
+                </a>
+            </li>
+            <!-- Linkedin -->
+            <li>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca"
+                    href="https://www.linkedin.com/in/carlos-abril-380140189/" role="button">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <!-- Github -->
+            <li>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333"
+                    href="https://github.com/cabril87" role="button">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./Js/script.js"></script>
 </body>
 
 </html>

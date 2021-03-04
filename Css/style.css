@@ -1,168 +1,142 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1  {
-  padding:10px;
-  color: white;
-  margin: 0px;
-  
-}
-h2 {
-  padding:10px;
-  color: white;
-  margin: 0px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(75, 77, 77);
-  padding: 15px;
-  align-items: center;
 
-}
-nav a {
-  color:white;
-  text-decoration: none;
-  font-size: 150%;
-  border-bottom: 4px solid white;
-  margin: 4px;
-  margin: 4px;
-}
-
-
-.sub-heading  {
-  background-position: bottom;
-  background-image: url("https://cdn.pixabay.com/photo/2021/02/03/14/58/geometric-5978243_1280.jpg");
-  display: flex;
-  padding: 80px 60px 20px;
-  justify-content: flex-end;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-main > section {
-display: flex;
-flex-direction: row;
-padding-left: 80px;
-}
-.container1 {
-  
-  margin-top: 20px;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
-  padding: 8px 16px;
-  border-left: 10px solid rgb(53, 53, 54);
-}
-.content nav a {
-  color: aliceblue;
-  font-size: larger;
-}
-img {
-  width: 100px 100px;
-}
-p {
-  margin-bottom: 20px;
-}
-.container2 {
-  margin-bottom: 20px;
-}
-
-.skill.website {
-  background-image: url("https://cdn.pixabay.com/photo/2017/07/10/10/08/icon-2489619_1280.jpg");
-  background-position:center;
-  /* border: 4px solid rgb(0, 0, 0); */
-  min-height: 200px;
-  width: 50%;
-  box-sizing: border-box;
-  display: flex;
-  align-items:center;
-}
-
-.skill.film {
-  background-image: url("https://cdn.pixabay.com/photo/2020/11/20/00/08/clapperboard-5760216__340.jpg");
-  /* border: 4px solid rgb(0, 0, 0); */
-  min-height: 200px;
-  width: 50%;
-  box-sizing: border-box;
-  
-  display: flex;
-  align-items: center;
+html {
+    font-size: 16px;
+    
   }
-  .skill.photo {
-    /* border: 4px solid rgb(0, 0, 0); */
-    background-image: url("https://cdn.pixabay.com/photo/2021/01/30/02/02/man-5962642_1280.jpg");
-    background-position: center;
-    border-bottom-left-radius: 25px;
-    min-height: 200px;
-    width: 50%;
-    box-sizing: border-box;
-    margin-bottom: 8px;
+  
+  body {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+  }
+  
+  
+  .main-heading {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding: 0;
+    margin: auto;
+    height: 40px;
+    color: #fff;
+  }
+  header a {
+    margin: 0px 40px 0px 40px;
+  }
+  .container  h1 {
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .bg-light {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding:0
+    
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  
+  /* Main */
+  
+  .sec-main {
+    position: relative;
+    height: 560px;
+    background: url(https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center;
+    background-size: cover;
+  }
+  /*About*/
+  
+  .sec-about a {
+    color: #000;
+   
+  }
+  img {
+    border-radius: 20%;
+  }
+button {
+  border:none;
+  background:none;
+  outline-style: none;
+}
+button i {
+  color: #000;
+}
+  
+  
+  
+  
+  /* section info */
+  .sec-info  {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-info p {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-info h3 {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-info i {
+  display: block;
+  margin: 30px;
+  
+}
+.big-icon {
+  font-size: 132px;
+}
+
+
+section {
+    padding: 5em 0;
+  }
+  .soc-media-ul {
     display: flex;
-    align-items: center;
-    }
-    .skill.sound {
-      /* border: 4px solid rgb(0, 0, 0); */
-      background-image: url('https://cdn.pixabay.com/photo/2017/10/28/13/50/piano-2897109_1280.jpg');
-      background-position: center;
-      min-height: 100px;
-      width: 50%;
-      box-sizing: border-box;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      }
-.skill.hero   {
-  /* border: 4px solid rgb(0, 0, 0); */
-  display: flex;
-  align-items: flex-end;
-  background-image: url("https://cdn.pixabay.com/photo/2016/07/07/01/16/abstract-1501710_1280.jpg");
-  align-items: center;
-  border-top-right-radius: 25px;
-  width: 100%;
-  min-height: 200px;
-}
-
-section > footer {
-  display: flex;
-  justify-content: row;
-  background-color: rgb(75, 77, 77);
-  padding: 30px;
-  align-items: center;
-}
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 25px;
-  width: 100%;
-  justify-content: flex-end;
-}
-h3 {
-  display: flex;
   justify-content: center;
-  flex-direction: column;
-   font-size: 20%;
-   width: 60px;
-   text-align: center;
-   padding: 8px;
-}
-nav {
-  display: flex;
-  padding: 0px 30px;
-  font-size: 8px;
+  padding: 15px;
+  }
+  .soc-media-ul a {
+    text-align: center;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
   
   
-}
+  footer {
+    background: rgb(0, 0, 0);
+    padding: 0px;
+  }
+  
+  
+  
+  
+  
 
-nav a {
+
   
-  display: flex;
   
-}
+  
+
+  
+ 
+  
+  
