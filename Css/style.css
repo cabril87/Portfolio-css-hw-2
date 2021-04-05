@@ -75,6 +75,29 @@ button {
 button i {
   color: #000;
 }
+.sec-work  {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-work p {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-work h2 {
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+}
+.sec-work h1 {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.sec-work a {
+  
+  margin: 30px;
+  
+}
   
   
   
@@ -97,6 +120,7 @@ button i {
   margin: 30px;
   
 }
+
 .big-icon {
   font-size: 132px;
 }
@@ -125,6 +149,7 @@ section {
     background: rgb(0, 0, 0);
     padding: 0px;
   }
+  
   
   
   
